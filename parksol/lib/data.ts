@@ -22,3 +22,5 @@ export const links = [
     hash: "#contact",
   },
 ] as const;
+
+export const tagsData = ["Apparel", "Cups", "Candy", "Hats"] as const;
