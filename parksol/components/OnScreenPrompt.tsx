@@ -3,25 +3,28 @@ import React from "react";
 import { StickyScroll } from "./ui/sticky-scroll-reveal";
 import Image from "next/image";
 
+import product from "../public/product.png";
+
+
 const content = [
   {
-    title: "Collaborative Editing",
+    title: "Quality and Service",
     description:
-      "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
+      "We are committed to exceptional quality and service, ensuring that our products enhance your guests' experience and leave a lasting impression.",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Collaborative Editing
+        Quality and Service
       </div>
     ),
   },
   {
-    title: "Real time changes",
+    title: "Unique Merchandise",
     description:
-      "See changes as they happen. With our platform, you can track every modification in real time. No more confusion about the latest version of your project. Say goodbye to the chaos of version control and embrace the simplicity of real-time updates.",
+      "At Park Solution, we design unique, high-quality merchandise that captures the essence of your amusement park, resonating with visitors of all ages",
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
-        <Image
-          src={`/product.png`}
+        <Image unoptimized
+          src={product}
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -31,22 +34,22 @@ const content = [
     ),
   },
   {
-    title: "Version control",
+    title: "Delicious Candies",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+      "We craft a variety of delectable candies, from classic favorites to innovative creations, adding a sweet experience to your park's offerings.",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
-        Version control
+        Delicious Candies 
       </div>
     ),
   },
   {
-    title: "Running out of content",
+    title: "One-Stop Destination",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+      "Experience the magic with Park Solution, your go-to partner for enchanting merchandise and irresistible candies in the world of amusement parks.",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Running out of content
+        One-Stop Destination
       </div>
     ),
   },
