@@ -16,7 +16,8 @@ export function Contact() {
     console.log("Form submitted");
   };
   return (
-   
+    <section id="contact" className="scroll-mt-28">
+
 
     <div className="max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
  
@@ -55,6 +56,7 @@ export function Contact() {
       
       </form>
     </div>
+    </section>
   );
 }
 

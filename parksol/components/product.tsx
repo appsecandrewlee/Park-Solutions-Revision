@@ -2,7 +2,12 @@
 import { ParallaxScrollSecond } from "./ui/parallax-scroll-2";
 
 export function ProductSection() {
-  return <ParallaxScrollSecond images={images} />;
+
+  return(
+  <section id="product" className= "scroll-mt-28">
+  <ParallaxScrollSecond images={images} />
+  </section>
+);
 }
 
 const images = [

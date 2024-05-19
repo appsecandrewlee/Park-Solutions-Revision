@@ -2,10 +2,6 @@ import React from "react";
 
 export const links = [
   {
-    name: "Home",
-    hash: "#home",
-  },
-  {
     name: "Products",
     hash: "#products",
   },
