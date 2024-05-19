@@ -32,20 +32,11 @@ export default function Hero() {
           }}
         >
           <Link
-            href={"#contact"}
+            href={"#products"}
             className="bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full"
           >
-            Contact Us!
-          </Link>
-          <a
-            href={"#products"}
-            className="bg-white px-7 py-3 flex items-center gap-2 rounded-full"
-          >
             View Products <BsArrowDown />{" "}
-          </a>
-          <a className="bg-white px-7 py-3 flex items-center gap-2 rounded-full">
-            DK-based 🇩🇰{" "}
-          </a>
+          </Link>
         </motion.div>
       </div>
     </div>

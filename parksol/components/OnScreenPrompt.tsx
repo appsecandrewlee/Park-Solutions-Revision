@@ -2,9 +2,10 @@
 import React from "react";
 import { StickyScroll } from "./ui/sticky-scroll-reveal";
 import Image from "next/image";
-
-import product from "../public/park_cup.png";
-
+import background1 from "../public/background1.jpg";
+import background2 from "../public/background2.jpg";
+import background3 from "../public/background3.jpg";
+import background4 from "../public/background4.jpg";
 
 const content = [
   {
@@ -12,9 +13,13 @@ const content = [
     description:
       "We are committed to exceptional quality and service, ensuring that our products enhance your guests' experience and leave a lasting impression.",
     content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Quality and Service
-      </div>
+      <Image unoptimized
+      src={background1}
+      width={300}
+      height={300}
+      className="h-full w-full object-cover"
+      alt="QS background"
+    />
     ),
   },
   {
@@ -24,11 +29,11 @@ const content = [
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image unoptimized
-          src={product}
+          src={background2}
           width={300}
           height={300}
           className="h-full w-full object-cover"
-          alt="linear board demo"
+          alt="UM background"
         />
       </div>
     ),
@@ -38,9 +43,13 @@ const content = [
     description:
       "We craft a variety of delectable candies, from classic favorites to innovative creations, adding a sweet experience to your park's offerings.",
     content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
-        Delicious Candies 
-      </div>
+      <Image unoptimized
+      src={background3}
+      width={300}
+      height={300}
+      className="h-full w-full object-cover"
+      alt="DC background"
+    />
     ),
   },
   {
@@ -48,11 +57,30 @@ const content = [
     description:
       "Experience the magic with Park Solution, your go-to partner for enchanting merchandise and irresistible candies in the world of amusement parks.",
     content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        One-Stop Destination
-      </div>
+      <Image unoptimized
+      src={background4}
+      width={300}
+      height={300}
+      className="h-full w-full object-cover"
+      alt="OSD background"
+    />
     ),
   },
+  {
+    title: "",
+    description:
+    "",
+    content: (
+      <Image unoptimized
+      src={background4}
+      width={300}
+      height={300}
+      className="h-full w-full object-cover"
+      alt="OSD background"
+    />
+    ),
+  },
+  
 ];
 export function StickyScrollRevealDemo() {
   return (

@@ -3,7 +3,7 @@ import React from "react";
 import { tagsData } from "@/lib/data";
 export default function Tags() {
   return (
-    <section style={{ marginTop: "10px" }}>
+    <section style={{ marginTop: "40px" }}>
       <ul className="flex flex-wrap justify-center gap-4 text-lg text-gray-800">
         {tagsData.map((tagging, index) => (
           <li

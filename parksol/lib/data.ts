@@ -24,4 +24,4 @@ export const links = [
   },
 ] as const;
 
-export const tagsData = ["Apparel", "Cups", "Candy", "Hats"] as const;
+export const tagsData = ["Apparel", "Cups", "Lollipop", "Hats", "Lunchbox", "Xmas Ball"] as const;
