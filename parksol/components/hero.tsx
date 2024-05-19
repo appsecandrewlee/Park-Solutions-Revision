@@ -5,6 +5,7 @@ import { BsArrowDown, BsArrowRight, BsTelephone } from "react-icons/bs";
 import { motion } from "framer-motion";
 export default function Hero() {
   return (
+    <section id="home" className="scroll mt-28">
     <div className="h-auto md:h-[40rem] w-full rounded-md flex flex-col item-center justify-center relative overflow-hidden mx-auto py-10 md:py-0">
       <div className="p-4 relative z-10 w-full text-center">
         <motion.h1
@@ -48,5 +49,6 @@ export default function Hero() {
         </motion.div>
       </div>
     </div>
+    </section>
   );
 }
