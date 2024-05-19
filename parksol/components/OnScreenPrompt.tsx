@@ -3,7 +3,7 @@ import React from "react";
 import { StickyScroll } from "./ui/sticky-scroll-reveal";
 import Image from "next/image";
 
-import product from "../public/product.png";
+import product from "../public/park_cup.png";
 
 
 const content = [

@@ -4,7 +4,7 @@ import { ContainerScroll } from "./ui/container-scroll-animation";
 import Image from "next/image";
 import { StickyScrollRevealDemo } from "./OnScreenPrompt";
 import { Contact } from "./contactform";
-export function HeroScrollDemo() {
+export function IpadTitle() {
   return (
     <div className="flex flex-col overflow-hidden">
       <ContainerScroll

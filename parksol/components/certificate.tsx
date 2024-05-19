@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { WobbleCard } from "./ui/wobble-card";
 
-export function WobbleCardDemo() {
+export function CertificateCards() {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full">
       <WobbleCard
@@ -19,7 +19,7 @@ export function WobbleCardDemo() {
           </p>
         </div>
         <Image
-          src="/product.png"
+          src="/park_cup.png"
           width={1200}
           height={800}
           alt="linear demo image"
@@ -44,7 +44,7 @@ export function WobbleCardDemo() {
           </p>
         </div>
         <Image
-          src="/linear.webp"
+          src="/park_cup.png"
           width={500}
           height={500}
           alt="linear demo image"

@@ -1,9 +1,9 @@
 import Hero from "@/components/hero";
 import { ProductSection } from "@/components/product";
 import Tags from "@/components/tag";
-import { TypewriterEffectSmoothDemo } from "../components/process";
-import { WobbleCardDemo } from "@/components/certificate";
-import { HeroScrollDemo } from "@/components/about";
+import { TypeWritingTitle } from "../components/process";
+import { CertificateCards } from "@/components/certificate";
+import { IpadTitle } from "@/components/about";
 import  {Contact}  from "@/components/contactform";
 export default function Home() {
   return (
@@ -11,9 +11,9 @@ export default function Home() {
       <Hero />
       <ProductSection />
       <Tags />
-      <TypewriterEffectSmoothDemo />
-      <WobbleCardDemo />
-      <HeroScrollDemo />
+      <TypeWritingTitle />
+      <CertificateCards />
+      <IpadTitle />
     </main>
   );
 }

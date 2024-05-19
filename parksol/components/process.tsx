@@ -1,18 +1,24 @@
 "use client";
 import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
-export function TypewriterEffectSmoothDemo() {
+export function TypeWritingTitle() {
   const words = [
     {
-      text: "Effectively",
+      className: "text-white dark:text-white",
+
+      text: "We",
     },
     {
-      text: "Sold",
+      className: "text-white dark:text-white",
+
+      text: "Are",
     },
     {
-      text: "Millions",
+      className: "text-white dark:text-white",
+
+      text: "Professionally",
     },
     {
-      text: "[Worldwide]",
+      text: "Certified",
       className: "text-black-50 dark:text-black",
     },
   ];
